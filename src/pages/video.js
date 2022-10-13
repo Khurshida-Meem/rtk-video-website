@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../components/navbar";
 import RelatedVideos from "../components/related-vdo-list";
 import Description from "../components/vdo-desc/description";
 import Player from "../components/vdo-desc/player";
