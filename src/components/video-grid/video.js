@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Video = ({ video }) => {
+const Video = ({ video = {} }) => {
   const {id, title, thumbnail, duration, avatar, author, views, date } = video;
 
   return (
@@ -26,7 +26,7 @@ const Video = ({ video }) => {
             <img
               src={avatar}
               className="rounded-full h-6 w-6"
-              alt="Learn with Sumit"
+              alt={author}
             />
           </Link>
 
