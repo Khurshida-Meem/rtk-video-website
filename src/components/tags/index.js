@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchTags } from "../../redux/tags/tagSlice";
-import Loading from "../ui/loading";
 import Tag from "./tag";
 
 const Tags = () => {
