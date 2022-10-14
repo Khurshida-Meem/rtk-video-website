@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchVideos } from "../../features/videos/videoSlice";
+import { fetchVideos } from "../../redux/videos/videoSlice";
 import Loading from "../ui/loading";
 import Video from "./video";
 
