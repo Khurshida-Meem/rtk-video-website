@@ -37,7 +37,7 @@ const Video = () => {
           <Player link={link} title={title} />
           <Description video={video} />
         </div>
-        <RelatedVideos videoId={id} tags={tags} />
+        <RelatedVideos currentVideoId={id} tags={tags} />
       </div>
     );
   }
