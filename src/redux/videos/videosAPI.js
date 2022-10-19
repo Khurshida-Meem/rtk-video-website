@@ -9,7 +9,6 @@ export const getVideos = async (tags, search) => {
   if(search !== ''){
     queryString+=`&q=${search}`;
   }
-  console.log(queryString)
 
   const response = await axiosInstance.get(`/videos/?${queryString}`);
   return response.data;

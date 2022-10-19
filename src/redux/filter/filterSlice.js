@@ -21,6 +21,7 @@ const filterSlice = createSlice({
     },
     tagRemoveAll: (state, action) => {
       state.tags = [];
+      state.search="";
     },
     searched: (state, action) => {
       state.search = action.payload;
