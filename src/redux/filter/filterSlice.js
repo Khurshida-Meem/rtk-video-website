@@ -3,6 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
   tags: [],
   search: "",
+  author: "",
 };
 
 const filterSlice = createSlice({
